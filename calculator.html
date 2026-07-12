@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./calculator.css">
+</head>
+
+<body>
+
+    <div class="outer">
+
+        <h1>Calculator app</h1>
+        <div class="inner">
+
+            <input type="text">
+
+            <div class="row">
+                <button onclick=" clearInput()">C</button>
+                <button onclick=" removeLast()"> <- </button>
+                        <button onclick="getcharacter('/')">/</button>
+                        <button onclick="getcharacter('*')">*</button>
+            </div>
+
+            <div class="row">
+                <button onclick="getcharacter('7')">7</button>
+                <button onclick="getcharacter('8')">8</button>
+                <button onclick="getcharacter('9')">9</button>
+                <button onclick="getcharacter('-')">-</button>
+            </div>
+
+            <div class="row">
+                <button onclick="getcharacter('4')">4</button>
+                <button onclick="getcharacter('5')">5</button>
+                <button onclick="getcharacter('6')">6</button>
+                <button onclick="getcharacter('+')">+</button>
+            </div>
+
+            <div class="row">
+                <button onclick="getcharacter('1')">1</button>
+                <button onclick="getcharacter('2')">2</button>
+                <button onclick="getcharacter('3')">3</button>
+                <button onclick="getcharacter('%')">%</button>
+            </div>
+
+            <div class="row">
+                <button onclick="getcharacter('0')">0</button>
+                <button onclick="getcharacter(' EE')">EE</button>
+                <button onclick="getcharacter('.')">.</button>
+                <button onclick=" calculator()">=</button>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <script src="./calculator.js"></script>
+</body>
+
+</html>
